@@ -5,7 +5,8 @@
     <title>Urban Planning Engineering Law</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
-    
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- bootstrap css -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <!-- custom css -->
@@ -48,10 +49,10 @@
         </nav>
         <div class="container">
           <div class="justify-content-center" style="padding: 11em;"> 
-          <p id="jumbo-p"><span>U</span>rban</p>
-          <p id="jumbo-p"><span>P</span>lanning</p>
-          <p id="jumbo-p"><span>E</span>ngineering</p>
-          <p id="jumbo-p"><span>L</span>aw</p>
+          <p id="jumbo-p" data-aos="fade-right"data-aos-duration="500"><span>U</span>rban</p>
+          <p id="jumbo-p" data-aos="fade-right"data-aos-duration="1000"><span>P</span>lanning</p>
+          <p id="jumbo-p" data-aos="fade-right"data-aos-duration="1500"><span>E</span>ngineering</p>
+          <p id="jumbo-p" data-aos="fade-right"data-aos-duration="2000"><span>L</span>aw</p>
         </div>
     </div>
     
@@ -59,11 +60,11 @@
       <!-- section about -->
         <div class="site-section" id="section-about" >
           <div class="container">              
-            <h1 id="section-h1" class="text-center">ΠΟΙΟΙ ΕΙΜΑΣΤΕ</h1>
+            <h1 id="section-h1" class="text-center" data-aos="flip-right" data-aos-offset="100" data-aos-easing="ease-in-sine">ΠΟΙΟΙ ΕΙΜΑΣΤΕ</h1>
             <hr class="rgba-white-light" style="margin: 0 45%; padding-bottom: 5em;">
             <div class="row">
               <div class="col-md-5 mr-auto">
-                <img class="about-image" src="./pics/sp3.jpg" alt="">  
+                <img class="about-image" src="./pics/sp3.jpg" alt="" data-aos="flip-right" data-aos-duration="500">  
               </div>
               <div class="col-md-6 ml-auto">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -89,7 +90,7 @@
       <!-- ΕΤΑΙΡΕΙΑ -->
       <div class="site-section" id="#section-company">
         <div class="container">
-          <h1 id="section-h1" class="text-center">ΕΤΑΙΡΕΙΑ</h1>
+          <h1 id="section-h1" class="text-center" data-aos="flip-right" data-aos-offset="100" data-aos-easing="ease-in-sine">ΕΤΑΙΡΕΙΑ</h1>
           <hr class="rgba-white-light" style="margin: 0 47%; padding-bottom: 5em;">   
         </div>
       </div>
@@ -98,29 +99,26 @@
      
       <div class="site-section" id="#section-services">
         <div id="cover-services">
-          <h1 id="section-h1" class="text-center">ΥΠΗΡΕΣΙΕΣ</h1>
+          <h1 id="section-h1" class="text-center" data-aos="flip-right" data-aos-offset="100" data-aos-easing="ease-in-sine">ΥΠΗΡΕΣΙΕΣ</h1>
           <hr class="rgba-white-light" style="margin: 0 46%; padding-bottom: 5em;">
           <div class="container">
           <div class="row">
             <div class="col-md-6">
-             <span class="service-li">1</span>
+             <span class="service-li" >1</span>
              <div class="services-p">
                <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum 
                  deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, 
                  similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
               </div>
-            </div>
-                  
+            </div>       
             <div class="col-md-6 text-right">
               <span class="service-li">2</span>
               <div class="services-p">
                 <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum 
                   deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, 
                   similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
-              </div>
-              
+              </div>    
             </div>
-            
           </div>
         </div>
         </div>
@@ -131,16 +129,53 @@
       <!-- ΕΡΓΑ -->
       <div class="site-section" id="#section-projects">
         <div class="container">
-          <h1 id="section-h1" class="text-center">ΕΡΓΑ</h1>
+          <h1 id="section-h1" class="text-center" data-aos="flip-right" data-aos-offset="100" data-aos-easing="ease-in-sine">ΕΡΓΑ</h1>
           <hr class="rgba-white-light" style="margin: 0 48%; padding-bottom: 5em;">
-
+          <div class="row">
+            <div class="card border-light mb-3 mr-5" style="max-width: 15rem;">
+              <div class="card-header">
+                ΕΡΓΟ 1
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Light card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+            <div class="card border-light mb-3 mr-5" style="max-width: 15rem;">
+              <div class="card-header">
+                ΕΡΓΟ 2
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Light card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+            <div class="card border-light mb-3 mr-5" style="max-width: 15rem;">
+              <div class="card-header">
+                ΕΡΓΟ 3
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Light card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+            <div class="card border-light mb-3 " style="max-width: 15rem;">
+              <div class="card-header">
+                ΕΡΓΟ 4
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Light card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       
       <!-- ΕΠΙΚΟΙΝΩΝΙΑ -->
       <div class="site-section" id="#section-contact">
         <div class="container">  
-          <h1 id="section-h1" class="text-center">ΕΠΙΚΟΙΝΩΝΙΑ</h1>
+          <h1 id="section-h1" class="text-center" data-aos="flip-right" data-aos-offset="100" data-aos-easing="ease-in-sine">ΕΠΙΚΟΙΝΩΝΙΑ</h1>
           <hr class="rgba-white-light" style="margin: 0 45%; padding-bottom: 5em;">
             <div class="row">
               <div class="col-md-5 contact">
@@ -197,5 +232,9 @@
 
      <!-- custom js -->
     <script src="js/upel.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
