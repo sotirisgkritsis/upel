@@ -5,8 +5,7 @@
     <title>Urban Planning Engineering Law</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
-    <!-- custom js -->
-    <link rel="stylesheet" href="./js/upel.js">
+    
     <!-- bootstrap css -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <!-- custom css -->
@@ -19,9 +18,9 @@
 <body>
     <div id="cover">
       <!-- navbar -->
-      <nav class="navbar navbar-expand py-3 site-navbar">
+      <nav id="mainNavbar" class="navbar navbar-expand py-3 site-navbar">
           <div class="container">
-              <div class="col-11 col-xl-2" id="navbarTogglerDemo01">
+              <div class="col-11 col-xl-2">
                   <a class="navbar-brand col-11 col-xl-2 " href="#">
                       <img src="./pics/upel2.png" alt="image" id="upel-image">
                   </a>
@@ -47,8 +46,16 @@
                   </div>           
           </div>
         </nav>
+        <div class="container">
+          <div class="justify-content-center" style="padding: 11em;"> 
+          <p id="jumbo-p"><span>U</span>rban</p>
+          <p id="jumbo-p"><span>P</span>lanning</p>
+          <p id="jumbo-p"><span>E</span>ngineering</p>
+          <p id="jumbo-p"><span>L</span>aw</p>
+        </div>
     </div>
-
+    
+    </div>
       <!-- section about -->
         <div class="site-section" id="section-about" >
           <div class="container">              
@@ -93,24 +100,29 @@
         <div id="cover-services">
           <h1 id="section-h1" class="text-center">ΥΠΗΡΕΣΙΕΣ</h1>
           <hr class="rgba-white-light" style="margin: 0 46%; padding-bottom: 5em;">
+          <div class="container">
           <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-1">
-             <span>1</span>
+            <div class="col-md-6">
+             <span class="service-li">1</span>
              <div class="services-p">
-               <p>cascascascascascascascascasascsa
-                cascascascascascascascascasascsa
-                cascascascascascascascascasascsa</p>
-               
+               <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum 
+                 deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, 
+                 similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
               </div>
             </div>
-            <div class="col-md-2"></div>
-            <div class="col-md-2"></div>          
-            <div class="col-md-1">
-              <span>2</span>
+                  
+            <div class="col-md-6 text-right">
+              <span class="service-li">2</span>
+              <div class="services-p">
+                <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum 
+                  deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, 
+                  similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+              </div>
+              
             </div>
-            <div class="col-md-3"></div>
+            
           </div>
+        </div>
         </div>
             
         
@@ -182,6 +194,8 @@
         </div>
         
       </footer>
-     
+
+     <!-- custom js -->
+    <script src="js/upel.js"></script>
 </body>
 </html>
