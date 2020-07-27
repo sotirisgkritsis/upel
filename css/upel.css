@@ -1,0 +1,145 @@
+/* GOOGLE FONTS 
+font-family: 'Jura', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif; 
+*/
+body{
+    font-family: 'Jura', sans-serif;
+    min-width: 550px;
+}
+
+#upel-image{
+    width: auto;
+    height: 70px;
+  
+}
+
+#home-page-upel{
+    margin: 100px 0px 100px 0px;
+}
+
+
+
+.site-navbar{
+    margin-bottom: 0px;
+    position: absolute;
+    width: 100%;
+}
+
+.navbar .site-navigation{
+    display: inline;
+}
+
+ul li a{
+    color: #5e0505;
+    font-weight: 500;
+}
+
+.nav-item{
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 16px;
+   
+}
+
+
+
+.site-section{
+    padding: 5em 0;
+}
+
+#section-h1{
+font-family: 'Roboto', sans-serif; 
+
+    font-size: 25px; 
+    padding-top: 2em;
+    letter-spacing: 0.1em;
+    color: #5e0505;
+    font-weight: 400;
+    /* text-shadow: 0px 4px 3px rgba(0,0,0,0.2); */
+				 
+
+
+}
+
+#cover{
+    background-image: url("../pics/cover4.png");
+    background-attachment: fixed;
+    min-height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: initial;   
+}
+
+#cover-services{
+    background-image: url("../pics/cover7.png");
+    background-attachment: fixed;
+    min-height: 600px;
+    background-position: 70%;
+    width: 100%;
+    position: initial;
+    background-repeat: no-repeat;
+    background-position: cover;
+    
+}
+
+span{
+    border: 4px solid #6b6d70;
+    background: #5e0505;
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 38px;
+    font-weight: 400;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;  
+}
+
+.services-p{
+    
+}
+
+footer{
+    height: auto;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(148,147,147,1) 100%);
+    padding-bottom: 20px;
+}
+
+
+.footer-heading{
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    color: #5e0505;
+}
+
+.footer-p{
+    font-size: 15px;
+}
+
+.about-image{
+    /* background-attachment: fixed; */
+    min-height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: initial;
+    border-radius: 5%;
+}
+
+#contact-p{
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 0px;
+    color: #5e0505;
+}
+
+.contact{
+    background-color: #f7f7f7;
+    padding-top: 10px;
+    border-radius: 5%;
+}
