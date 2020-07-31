@@ -4,11 +4,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Urban Planning Engineering Law</title>
     <!-- Font Awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <!-- aos -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- bootstrap css -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">    
     <!-- custom css -->
     <link rel="stylesheet" href="./css/upel.css">
     <!-- csshae css -->
@@ -17,56 +18,100 @@
     <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="cover">
+    
       <!-- navbar -->
-      <nav id="mainNavbar" class="navbar navbar-expand py-3 site-navbar">
+      <nav id="site-navbar" class="navbar navbar-expand-xl navbar-light ">
           <div class="container">
-              <div class="col-11 col-xl-2">
-                  <a class="navbar-brand col-11 col-xl-2 " href="#">
+                  <a class="navbar-brand" href="#">
                       <img src="./pics/upel2.png" alt="image" id="upel-image">
                   </a>
-              </div>
-                  <div class="d-none d-xl-block">
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbarLg">
+                    <span class="navbar-toggler-icon" style="height: 20px; width: 20px;"></span>
+                </button>       
+                  <div class="navbar-collapse collapse" id="collapsingNavbarLg">
                       <ul class="navbar-nav ml-auto ">
                           <li class="nav-item active">
-                            <a class="nav-link" id="menu" href="#">Αρχικη</a>
+                            <a class="nav-link" id="link-menu" href="#section-about">Αρχικη</a>
                           </li>
                           <li class="nav-item active">
-                            <a class="nav-link" href="#">Εταιρεια</a>
+                            <a class="nav-link" id="link-menu" href="#section-company">Εταιρεια</a>
                           </li>   
                           <li class="nav-item active">
-                              <a class="nav-link" href="#">Υπηρεσιες</a>
+                              <a class="nav-link" id="link-menu" href="#section-services">Υπηρεσιες</a>
                             </li>
+                            <!-- <li class="nav-item active">
+                              <a class="nav-link" id="link-menu" href="#section-projects">Εργα</a>
+                            </li> -->
                             <li class="nav-item active">
-                              <a class="nav-link" href="#">Εργα</a>
-                            </li>
-                            <li class="nav-item active">
-                              <a class="nav-link"href="#">Επικοινωνια</a>
+                              <a class="nav-link" id="link-menu" href="#section-contact">Επικοινωνια</a>
                             </li>       
                         </ul>
                   </div>           
           </div>
         </nav>
-        <div class="container">
-          <div class="justify-content-center" style="padding: 11em;"> 
-          <p id="jumbo-p" data-aos="fade-right"data-aos-duration="500"><span>U</span>rban</p>
-          <p id="jumbo-p" data-aos="fade-right"data-aos-duration="1000"><span>P</span>lanning</p>
-          <p id="jumbo-p" data-aos="fade-right"data-aos-duration="1500"><span>E</span>ngineering</p>
-          <p id="jumbo-p" data-aos="fade-right"data-aos-duration="2000"><span>L</span>aw</p>
-        </div>
-    </div>
+          <div id="banner">
+            <div class="container">
+              <div class=" row justify-content-center text-center" style="padding: 11em;"> 
+                <div class="col-3 px-3" data-aos="fade-right"data-aos-duration="500">
+                  <p ><span>U</span></p>
+                  <div class="d-none d-xl-block">
+                  <p id="banner-p" >r</p>
+                  <p id="banner-p" >b</p>
+                  <p id="banner-p" >a</p>
+                  <p id="banner-p" >n</p>
+                </div>
+                </div>
+                <div class="col-3 px-3" data-aos="fade-right"data-aos-duration="1000">
+                  <p ><span>P</span></p>
+                  <div class="d-none d-xl-block">
+                  <p id="banner-p" >l</p>
+                  <p id="banner-p" >a</p>
+                  <p id="banner-p" >n</p>
+                  <p id="banner-p" >n</p>
+                  <p id="banner-p" >i</p>
+                  <p id="banner-p" >n</p>
+                  <p id="banner-p" >g</p>
+                </div>
+                </div>
+                <div class="col-3 px-3" data-aos="fade-right"data-aos-duration="1500">
+                  <p ><span>E</span></p>
+                  <div class="d-none d-xl-block">
+                  <p id="banner-p" >n</p>
+                  <p id="banner-p" >g</p>
+                  <p id="banner-p" >i</p>
+                  <p id="banner-p" >n</p>
+                  <p id="banner-p" >e</p>
+                  <p id="banner-p" >e</p>
+                  <p id="banner-p" >r</p>
+                  <p id="banner-p" >i</p>
+                  <p id="banner-p" >n</p>
+                  <p id="banner-p" >g</p>
+                  </div>
+                </div>
+                <div class="col-3 px-3" data-aos="fade-right"data-aos-duration="2000">
+                  <p ><span>L</span></p>
+                  <div class="d-none d-xl-block">
+                  <p id="banner-p" >a</p>
+                  <p id="banner-p" >w</p>
+                </div>
+                </div> 
+            </div>
+            </div>
+          </div>
+        
+
+ 
     
-    </div>
       <!-- section about -->
         <div class="site-section" id="section-about" >
           <div class="container">              
             <h1 id="section-h1" class="text-center" data-aos="flip-right" data-aos-offset="100" data-aos-easing="ease-in-sine">ΠΟΙΟΙ ΕΙΜΑΣΤΕ</h1>
             <hr class="rgba-white-light" style="margin: 0 45%; padding-bottom: 5em;">
             <div class="row">
-              <div class="col-md-5 mr-auto">
-                <img class="about-image" src="./pics/sp3.jpg" alt="" data-aos="flip-right" data-aos-duration="500">  
+              <div class="col-md-5 mr-auto py-5">
+                <img class="about-image" src="./pics/cover11.jpg" alt="" data-aos="flip-right" data-aos-duration="500">  
               </div>
-              <div class="col-md-6 ml-auto">
+              <div class="col-md-6 ml-auto py-5">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -86,20 +131,15 @@
            </div>
           </div>
         </div>
-      
-      <!-- ΕΤΑΙΡΕΙΑ -->
-      <div class="site-section" id="#section-company">
-        <div class="container">
-          <h1 id="section-h1" class="text-center" data-aos="flip-right" data-aos-offset="100" data-aos-easing="ease-in-sine">ΕΤΑΙΡΕΙΑ</h1>
-          <hr class="rgba-white-light" style="margin: 0 47%; padding-bottom: 5em;">   
-        </div>
-      </div>
 
-      <!-- ΥΠΗΡΕΣΙΕΣ -->
+      
+
+
+        <!-- ΕΤΑΙΡΕΙΑ -->
      
-      <div class="site-section" id="#section-services">
+      <div class="site-section" id="section-company">
         <div id="cover-services">
-          <h1 id="section-h1" class="text-center" data-aos="flip-right" data-aos-offset="100" data-aos-easing="ease-in-sine">ΥΠΗΡΕΣΙΕΣ</h1>
+          <h1 id="section-h1" class="text-center" data-aos="flip-right" data-aos-offset="100" data-aos-easing="ease-in-sine">ΕΤΑΙΡΕΙΑ</h1>
           <hr class="rgba-white-light" style="margin: 0 46%; padding-bottom: 5em;">
           <div class="container">
           <div class="row">
@@ -122,14 +162,42 @@
           </div>
         </div>
         </div>
-            
-        
       </div>
 
+      
+      <!-- ΥΠΗΡΕΣΙΕΣ -->
+      <div class="site-section" id="section-services">
+        <div class="container">
+          <h1 id="section-h1" class="text-center" data-aos="flip-right" data-aos-offset="100" data-aos-easing="ease-in-sine">ΥΠΗΡΕΣΙΕΣ</h1>
+          <p class="justify-content-center text-center">random text generator bla bla blah</p>
+          <hr class="rgba-white-light" style="margin: 0 47%; padding-bottom: 5em;">   
+          <div class="row justify-content-center text-center">
+            <div class="col-md-4 pt-5 pb-5">
+              <h2 class="services-heading">Υπηρεσια 1</h2>
+              <p>blah blah blah blah blah </p>
+              <a href="./pages/ipiresia1.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Υπηρεσια 1</a>
+            </div>
+            <div class="col-md-4 pt-5 pb-5">
+              <h2>Υπηρεσια </h2>
+              <p>blah blah blah blah blah </p>
+              <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Υπηρεσια 2</a>
+            </div>
+            <div class="col-md-4 pt-5 pb-0">
+              <h2>Υπηρεσια 3</h2>
+              <p>blah blah blah blah blah </p>
+              <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Υπηρεσια 3</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+
       <!-- ΕΡΓΑ -->
-      <div class="site-section" id="#section-projects">
+      <!-- <div class="site-section" id="section-projects">
         <div class="container">
           <h1 id="section-h1" class="text-center" data-aos="flip-right" data-aos-offset="100" data-aos-easing="ease-in-sine">ΕΡΓΑ</h1>
+          <p class="justify-content-center text-center">random text generator bla bla blah</p>
           <hr class="rgba-white-light" style="margin: 0 48%; padding-bottom: 5em;">
           <div class="row">
             <div class="card border-light mb-3 mr-5" style="max-width: 15rem;">
@@ -170,13 +238,15 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       
       <!-- ΕΠΙΚΟΙΝΩΝΙΑ -->
-      <div class="site-section" id="#section-contact">
+      <div class="site-section" id="section-contact">
         <div class="container">  
           <h1 id="section-h1" class="text-center" data-aos="flip-right" data-aos-offset="100" data-aos-easing="ease-in-sine">ΕΠΙΚΟΙΝΩΝΙΑ</h1>
+          <p class="justify-content-center text-center">random text generator bla bla blah</p>
           <hr class="rgba-white-light" style="margin: 0 45%; padding-bottom: 5em;">
+          
             <div class="row">
               <div class="col-md-5 contact">
                   <p id="contact-p">Διεύθυνση</p>
@@ -187,7 +257,7 @@
                   <p>testemail@hotmail.com</p>
                 
               </div>
-              <div class="col-md-7 ml-auto text-right">
+              <div class="col-md-7 ml-auto text-right py-5">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7479.570401781621!2d23.723767305607296!3d37.98245060678645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bd3003b288d1%3A0xf09ea1211e0728e4!2sOmonia%20Square!5e0!3m2!1sen!2sgr!4v1595839232391!5m2!1sen!2sgr"
                  width="500" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
               </div>
@@ -230,7 +300,11 @@
         
       </footer>
 
-     <!-- custom js -->
+    <!-- bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- custom js -->
     <script src="js/upel.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
