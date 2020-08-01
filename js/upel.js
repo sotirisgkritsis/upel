@@ -20,22 +20,8 @@ $(document).ready(function(){
     });
   });
 
-
-  //sticky navbar
-  window.scroll = function(){stickyNav()};
-
-  // get the navbar
+// navbar scroll
+window.addEventListener("scroll", function(){
   var navbar = document.getElementById("site-navbar");
-
-  // get the offset position of the navbar
-  var sticky = 500;
-
-  // add the sticky class to the navbar when you reach its scroll position
-  // remove sticky when you leave the scroll position
-  function stickyNav(){
-    if(window.pageYOffset >= 500){
-      navbar.classList.add("sticky")
-    }else{
-      navbar.classList.remove("sticky");
-    }
-  }
+  navbar.classList.toggle("sticky", window.scrollY > 200) 
+})

@@ -10,13 +10,12 @@ html{
 
 body{
     font-family: 'Jura', sans-serif;
-    min-width: 400px;
+    /* min-width: 400px; */
 }
 
 #upel-image{
     width: auto;
     height: 70px;
-  
 }
 
 #home-page-upel{
@@ -24,7 +23,6 @@ body{
 }
 
 #link-menu{
-    color: #5e0505;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 15px;
@@ -33,35 +31,35 @@ body{
 }
 
 
+.nav-item{
+    color: #4c4d4e;
+}
+
 
 #site-navbar{
     width: 100%;
     z-index: 10;
-    position: absolute;
-    /* background-color: white; */
-    padding-top: 5px;
+    position: fixed;
+    padding-top: 5px; 
     margin-top: 0;
-    margin-bottom: 0;
-    /* box-shadow: 4px 3px 8px #888888; */
+    transition: 0.2s;
 }
 
 .site-section{
     padding: 5em 0;
 }
 
+
 #section-h1{
     font-family: 'Roboto', sans-serif;  
     font-size: 30px; 
     padding-top: 2em;
-    /* letter-spacing: 0.1em; */
     color: #5e0505;
     font-weight: 800;
-    /* text-shadow: 0px 4px 3px rgba(0,0,0,0.2); */
 }
 
 span{
     font-family: 'Playfair Display', serif;
-    /* font-family: 'Open Sans', sans-serif; */
     color: #5e0505;
     font-size: 50px;
     font-weight: 600;
@@ -69,7 +67,6 @@ span{
 }
 
 #banner-p{
-    
     font-size: 30px;
     font-weight: 800;
     color: black;
@@ -80,7 +77,6 @@ span{
     background-image: url("../pics/cover16.jpg");
     background-attachment: fixed;
     min-height: 1000px; 
-    /* height: 100%; */
     top: 100px;
     width: 100%;
     background-repeat: no-repeat;
@@ -124,6 +120,7 @@ span{
     padding: 2em 0em;
     color: #5e0505;
     font-weight: 600;
+    text-align: justify;
 }
 
 footer{
@@ -155,7 +152,7 @@ footer{
 }
 
 #contact-p{
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 700;
     padding-bottom: 0px;
     color: #5e0505;
@@ -169,11 +166,14 @@ footer{
 
 
 .sticky{
-    background-color: #fff;
-    position: fixed;
-    width: 100%;
-    box-shadow: 4px 3px 8px #888888;
-    top: 0;
-    z-index: 10;
-    }
+    padding: 5px 100px;
+    background-color: white;
+    box-shadow: 0px 1px 8px #888888;
     
+
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #5e0505;
+}
